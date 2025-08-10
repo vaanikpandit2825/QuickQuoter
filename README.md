@@ -1,29 +1,32 @@
-QuickQuoter
-QuickQuoter is a sleek Flutter app designed to deliver fresh and inspiring quotes at the tap of a button. Perfect for anyone who loves a quick dose of motivation or wisdom throughout the day.
+📜 QuickQuoter
+QuickQuoter is a simple Flutter app that displays a random motivational quote each time you tap the Next Quote button.
+It’s designed to inspire you with short bursts of positivity and motivation throughout the day.
 
-What It Does
-With a simple and intuitive interface, QuickQuoter fetches and displays a new quote every time you press Next. It’s lightweight, fast, and built with clean Flutter code for smooth performance.
+✨ Features
+🎯 Random Quotes — Get a new motivational quote every time.
+🎨 Clean UI — Minimalist design with a focus on readability.
+📱 Cross-Platform — Runs on Android, iOS, and more with Flutter.
 
-Features
-Instant quote refresh with a single tap
+📂 Project Structure
+lib/
+ └── main.dart      # Main app code (UI + logic for quotes)
 
-Minimalistic, user-friendly design
+🚀 How to Run
+Clone the repository
+git clone https://github.com/<your-username>/QuickQuoter.git
+cd QuickQuoter
 
-Easily extendable to add more quotes or features
+Install dependencies
+flutter pub get
+Run the app
+flutter run
 
-Technology
-Developed entirely in Flutter
+Run on a specific device
+flutter run -d chrome    # For Web
+flutter run -d emulator  # For Android Emulator
+flutter run -d ios       # For iOS Simulator
 
-Main logic and UI reside in lib/main.dart
 
-How to Run
-1.Clone this repo:
-    git clone https://github.com/vaanikpandit2825/QuickQuoter.git
-
-2.Navigate into the project folder:
-    cd QuickQuoter
-Run the app on your device or emulator:
-    flutter run
 
 [APP IMAGE]
 ![WhatsApp Image 2025-08-10 at 18 18 23_70c4e0b7](https://github.com/user-attachments/assets/910df976-00ed-492b-b0c9-954ff730b477)
