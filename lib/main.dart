@@ -69,7 +69,8 @@ class _QuotesScreenState extends State<QuotesScreen>
           padding: const EdgeInsets.all(24.0),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
-            children: [
+            children:
+            [
               Text(
                 '"${quotes[currentIndex]}"',
                 style: TextStyle(
@@ -95,6 +96,7 @@ class _QuotesScreenState extends State<QuotesScreen>
     );
   }
 }
+
 
 
 
