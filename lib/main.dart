@@ -3,7 +3,8 @@ import 'dart:math';
 
 void main() => runApp(QuotesApp());
 
-class QuotesApp extends StatelessWidget {
+class QuotesApp extends StatelessWidget 
+{
   const QuotesApp({super.key});
 
   @override
@@ -92,6 +93,7 @@ class _QuotesScreenState extends State<QuotesScreen> {
     );
   }
 }
+
 
 
 
