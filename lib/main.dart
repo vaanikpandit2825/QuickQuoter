@@ -27,7 +27,8 @@ class QuotesScreen extends StatefulWidget
   _QuotesScreenState createState() => _QuotesScreenState();
 }
 
-class _QuotesScreenState extends State<QuotesScreen> {
+class _QuotesScreenState extends State<QuotesScreen> 
+{
   final List<String> quotes = [
     "Don’t watch the clock; do what it does. Keep going.",
     "Success is not final, failure is not fatal: It is the courage to continue that counts.",
@@ -93,6 +94,7 @@ class _QuotesScreenState extends State<QuotesScreen> {
     );
   }
 }
+
 
 
 
