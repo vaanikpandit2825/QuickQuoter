@@ -60,7 +60,8 @@ class _QuotesScreenState extends State<QuotesScreen>
   }
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context)
+  {
     return Scaffold(
       appBar: AppBar(title: Text('Quotes of the Day'), centerTitle: true),
       body: Center(
@@ -94,6 +95,7 @@ class _QuotesScreenState extends State<QuotesScreen>
     );
   }
 }
+
 
 
 
