@@ -48,6 +48,7 @@ class _QuotesScreenState extends State<QuotesScreen>
     "The key to success is to focus on goals, not obstacles.",
     "Turn your wounds into wisdom.",
     "Dream it. Believe it. Build it.",
+    "Rise like the sun, even if yesterday was stormy. Every new day is your shot to shine brighter than ever." 
   ];
 
   int currentIndex = 0;
@@ -96,6 +97,7 @@ class _QuotesScreenState extends State<QuotesScreen>
     );
   }
 }
+
 
 
 
