@@ -49,6 +49,7 @@ class _QuotesScreenState extends State<QuotesScreen>
     "Turn your wounds into wisdom.",
     "Dream it. Believe it. Build it.",
     "Rise like the sun, even if yesterday was stormy. Every new day is your shot to shine brighter than ever." 
+    "Quit whining, start grinding. Your glow-up ain’t gonna happen while you’re busy scrolling."
   ];
 
   int currentIndex = 0;
@@ -97,6 +98,7 @@ class _QuotesScreenState extends State<QuotesScreen>
     );
   }
 }
+
 
 
 
