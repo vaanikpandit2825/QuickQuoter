@@ -7,8 +7,7 @@ class QuotesApp extends StatelessWidget{
   const QuotesApp({super.key});
 
   @override
-  Widget build(BuildContext context)
-  {
+  Widget build(BuildContext context){
     return MaterialApp(
       title: 'Daily Quotes',
       debugShowCheckedModeBanner: false,
@@ -97,6 +96,7 @@ class _QuotesScreenState extends State<QuotesScreen>
     );
   }
 }
+
 
 
 
