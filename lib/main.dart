@@ -17,8 +17,7 @@ class QuotesApp extends StatelessWidget{
   }
 }
 
-class QuotesScreen extends StatefulWidget
-{
+class QuotesScreen extends StatefulWidget{
   const QuotesScreen({super.key});
 
   @override
@@ -96,6 +95,7 @@ class _QuotesScreenState extends State<QuotesScreen>
     );
   }
 }
+
 
 
 
